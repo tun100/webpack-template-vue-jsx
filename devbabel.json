@@ -1,0 +1,14 @@
+{
+	"presets": [],
+	"plugins": [
+        "transform-vue-jsx",
+		"syntax-object-rest-spread",
+		[
+			"transform-decorators-legacy",
+			{
+				"loose": true
+			}
+		],
+		"transform-class-properties"
+	]
+}

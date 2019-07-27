@@ -1,0 +1,31 @@
+{
+    "presets": [
+        "es2017"
+    ],
+    "plugins": [
+        "transform-vue-jsx",
+        "transform-object-rest-spread",
+        [
+            "transform-es2015-spread",
+            {
+                "loose": true
+            }
+        ],
+        [
+            "transform-decorators-legacy",
+            {
+                "loose": true
+            }
+        ],
+        "transform-class-properties",
+        [
+            "transform-runtime",
+            {
+                "helpers": false,
+                "polyfill": false,
+                "regenerator": true,
+                "moduleName": "babel-runtime"
+            }
+        ]
+    ]
+}
